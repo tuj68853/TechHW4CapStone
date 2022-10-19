@@ -93,9 +93,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Home.aspx" />
+    <Content Include="LoginPortalStyle.css" />
     <Content Include="MasterStyle.css" />
     <Content Include="Mail.aspx" />
     <Content Include="Order.aspx" />
+    <Content Include="LoginPortal.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -144,6 +146,13 @@
     </Compile>
     <Compile Include="Order.aspx.vb">
       <DependentUpon>Order.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="LoginPortal.aspx.designer.vb">
+      <DependentUpon>LoginPortal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPortal.aspx.vb">
+      <DependentUpon>LoginPortal.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
