@@ -42,7 +42,7 @@
 
                             <div id="emailHelp" class="form-text text-center mb-5 text-dark">
                                 Not
-              Forgot Password? <a href="#" class="text-dark fw-bold">Click here reset</a>
+              Forgot Password? <a href="#" class="text-dark fw-bold">Click here to reset</a>
                             </div>
                         </container>
                     </div>

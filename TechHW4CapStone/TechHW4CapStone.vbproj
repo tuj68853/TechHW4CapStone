@@ -98,6 +98,7 @@
     <Content Include="Mail.aspx" />
     <Content Include="Order.aspx" />
     <Content Include="LoginPortal.aspx" />
+    <Content Include="OrderStyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

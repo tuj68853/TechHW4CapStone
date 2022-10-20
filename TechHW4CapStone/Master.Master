@@ -15,11 +15,16 @@
     <form id="form1" runat="server">
         <header>
             <h1>Pet Electronic Presciption System </h1>
-            
+
             <nav style="display: flex; flex-direction: row; justify-content: space-around; width: 100%; background-color: #F5F5F5; font-size: large;">
-                <h2> Welcome Dr....!</h2>
-                <a href="Home.aspx">Home </a> |
-                <a href="Order.aspx">Order </a> |
+                <h2>
+                    <asp:Button ID="btnConfirm" runat="server" Text="Logout"
+                        PostBackUrl="~/LoginPortal.aspx" />
+                </h2>
+                <h2>Welcome Dr....!</h2>
+                
+                <a href="Home.aspx">Home </a>|
+                <a href="Order.aspx">Order </a>|
                 <a href="Mail.aspx">Mail </a>
             </nav>
 

@@ -5,10 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <h2>Patients </h2>
-    <h2>
-        <asp:Button ID="btnConfirm" runat="server" Text="Logout"
-            PostBackUrl="~/LoginPortal.aspx" />
-    </h2>
+    
 
     <container>
         <div class="card" style="float: left; width: 15rem; margin: 10px; background-color: lightgray">
