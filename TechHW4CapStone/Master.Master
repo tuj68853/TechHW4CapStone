@@ -7,20 +7,34 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <link href="MasterStyle.css" rel="stylesheet" />
+
+
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <h1 style="color: red"> Master Page </h1>
-            <div style="display:flex; flex-direction:row;justify-content:space-around;width:25%;">
-                <a href="Default.aspx"> Default Page</a>
-                <a href="PageTwo.aspx"> Page Two</a>
-            </div>
+        <header>
+            <h1>Pet Electronic Presciption System </h1>
 
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+            <nav style="display: flex; flex-direction: row; justify-content: space-around; width: 100%; background-color: #F5F5F5; font-size: large;">
+                <h2>
+                    <asp:Button ID="btnConfirm" runat="server" Text="Logout"
+                        PostBackUrl="~/LoginPortal.aspx" />
+                </h2>
+                <h2>Welcome Dr....!</h2>
+                
+                <a href="Home.aspx">Home </a>|
+                <a href="Order.aspx">Order </a>|
+                <a href="Mail.aspx">Mail </a>
+            </nav>
 
-        </div>
+        </header>
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+
     </form>
 </body>
 </html>

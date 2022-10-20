@@ -92,16 +92,22 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Default.aspx" />
-    <Content Include="PageTwo.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="LoginPortalStyle.css" />
+    <Content Include="MailStyle.css" />
+    <Content Include="MasterStyle.css" />
+    <Content Include="Mail.aspx" />
+    <Content Include="Order.aspx" />
+    <Content Include="LoginPortal.aspx" />
+    <Content Include="OrderStyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default.aspx.designer.vb">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="Home.aspx.designer.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default.aspx.vb">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="Home.aspx.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Master.Master.designer.vb">
@@ -130,11 +136,25 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="PageTwo.aspx.designer.vb">
-      <DependentUpon>PageTwo.aspx</DependentUpon>
+    <Compile Include="Mail.aspx.designer.vb">
+      <DependentUpon>Mail.aspx</DependentUpon>
     </Compile>
-    <Compile Include="PageTwo.aspx.vb">
-      <DependentUpon>PageTwo.aspx</DependentUpon>
+    <Compile Include="Mail.aspx.vb">
+      <DependentUpon>Mail.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Order.aspx.designer.vb">
+      <DependentUpon>Order.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Order.aspx.vb">
+      <DependentUpon>Order.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="LoginPortal.aspx.designer.vb">
+      <DependentUpon>LoginPortal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPortal.aspx.vb">
+      <DependentUpon>LoginPortal.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
