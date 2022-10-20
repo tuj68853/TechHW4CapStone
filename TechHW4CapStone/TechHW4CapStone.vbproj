@@ -94,6 +94,7 @@
   <ItemGroup>
     <Content Include="Home.aspx" />
     <Content Include="LoginPortalStyle.css" />
+    <Content Include="MailStyle.css" />
     <Content Include="MasterStyle.css" />
     <Content Include="Mail.aspx" />
     <Content Include="Order.aspx" />
